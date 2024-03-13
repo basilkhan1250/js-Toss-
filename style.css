@@ -40,12 +40,13 @@ h1{
 }
 .card{
     height: 350px;
-    margin-top: 10px;
-    margin-left: 25px;
-    margin-right: 25px;
+    margin-top: 25px;
+    margin-left: 200px;
+    margin-right: 200px;
     border: 1px solid black;
     background-color: #FEECE2;
     border-radius: 25px;
+
 }
 h3{
     display: flex;
