@@ -1,31 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+
+
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
 
 
 
 
+    <div class="card">
+        <h1>Let's Toss</h1>
+        <div class="btn">
+            <button class="btns" onclick="toss('masjid')">Click for masjid</button>
+            <button class="btns" onclick="toss('chand')">Click for chand</button> <br />
+        </div>
+        <div class="image">
+            <img width="125px" class="coin">  
+        </div>
+        <div>
+            <h3>The coin will appear here, and it will decide your luck.</h3>
+        </div>
+    </div>
 
-    <h1>Let's Toss</h1>
-
-    <button onclick="toss('masjid')">click for masjid</button>
-    <button onclick="toss('chand')">click for chand</button> <br/>
-    
-    <img width="100px" class="image" src="" alt="">
 
 
 
 
 
 
-
-
-    
     <script src="./app.js"></script>
 </body>
+
 </html>
